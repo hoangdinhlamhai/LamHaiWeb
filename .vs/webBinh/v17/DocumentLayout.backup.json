@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\webBinh\\webBinh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|D:\\webBinh\\webBinh\\webbinh\\views\\project\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|solutionrelative:webbinh\\views\\project\\editproject.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|d:\\webbinh\\webbinh\\webbinh\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|solutionrelative:webbinh\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|D:\\webBinh\\webBinh\\webbinh\\views\\columns\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|solutionrelative:webbinh\\views\\columns\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|D:\\webBinh\\webBinh\\webbinh\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3726FE7F-2F2A-4D60-A6E7-FFEBC8685ADE}|webBinh\\webBinh.csproj|solutionrelative:webbinh\\views\\project\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 439,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\webBinh\\webBinh\\webBinh\\Views\\columns\\Delete.cshtml",
+              "RelativeDocumentMoniker": "webBinh\\Views\\columns\\Delete.cshtml",
+              "ToolTip": "D:\\webBinh\\webBinh\\webBinh\\Views\\columns\\Delete.cshtml",
+              "RelativeToolTip": "webBinh\\Views\\columns\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-02T07:54:36.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "projectController.cs",
+              "DocumentMoniker": "D:\\webBinh\\webBinh\\webBinh\\Controllers\\projectController.cs",
+              "RelativeDocumentMoniker": "webBinh\\Controllers\\projectController.cs",
+              "ToolTip": "D:\\webBinh\\webBinh\\webBinh\\Controllers\\projectController.cs",
+              "RelativeToolTip": "webBinh\\Controllers\\projectController.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAwwMgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T09:45:02.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "editProject.cshtml",
+              "DocumentMoniker": "D:\\webBinh\\webBinh\\webBinh\\Views\\project\\editProject.cshtml",
+              "RelativeDocumentMoniker": "webBinh\\Views\\project\\editProject.cshtml",
+              "ToolTip": "D:\\webBinh\\webBinh\\webBinh\\Views\\project\\editProject.cshtml",
+              "RelativeToolTip": "webBinh\\Views\\project\\editProject.cshtml",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAmwGsAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-01T09:42:17.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\webBinh\\webBinh\\webBinh\\Views\\project\\index.cshtml",
+              "RelativeDocumentMoniker": "webBinh\\Views\\project\\index.cshtml",
+              "ToolTip": "D:\\webBinh\\webBinh\\webBinh\\Views\\project\\index.cshtml",
+              "RelativeToolTip": "webBinh\\Views\\project\\index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAmwDwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:20:01.262Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+﻿@model IEnumerable<webBinh.Models.column>
+
+       
+@{
+    ViewBag.Title = "column";
+}
+<style>
+    .title_box {
+        text-align: center;
+        font-size:25px;
+       margin:30px;
+       font-weight:bold;
+    }
+
+    .menu {
+        border: solid 1px;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 25%;
+        float: left;
+    }
+
+    .menu ul {
+        list-style-type: none;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .menu li {
+        width: 95%;
+        height: 40px;
+        margin: 10px;
+        padding: 0 10px;
+        background-color: aquamarine;
+        border: solid 1px;
+        line-height: 40px;
+        white-space: nowrap; /* Không cho phép xuống dòng */
+        overflow: hidden; /* Ẩn phần văn bản tràn ra ngoài */
+        text-overflow: ellipsis;
+        border-radius: 20px;
+    }
+    .menu li a {
+        color: blue; /* Màu chữ đỏ cho liên kết */
+        text-decoration: none; /* Loại bỏ gạch dưới */
+    }
+    .content{
+        width:75%;
+        float:left;
+
+    }
+    .column{
+        width:30%;
+        padding: 10px;
+        border:solid 1px;
+        height:500px;
+        margin:2px;
+        float:left;
+        border-radius:30px;
+  
+    }
+     .column a {
+        color: blue; /* Màu chữ đỏ cho liên kết */
+        text-decoration: none; /* Loại bỏ gạch dưới */
+        
+    }
+    .item-column {
+        width: 100%;
+        background-color: greenyellow;
+        border-radius: 20px;
+        border: 1px solid;
+        margin: 10px 0;
+        font-size: 20px;
+        padding:5px;
+    }
+    .add{
+        width:50px;
+        height:30px;
+        border-radius:5px;
+        background-color:blue;
+        text-align:center;
+        color:white;
+        margin:0 auto;
+    }
+ </style>
+<div class="menu">
+    <div class="title_box">Project của tôi</div>
+    <ul class="left_menu">
+
+        @foreach (var item in ViewBag.project)
+        {
+            <li>
+                <a href="column?id_project= @item.id_project&sdt=0839976113"> @item.title </a>
+            </li>
+        }
+
+    </ul>
+    @{
+        webBinh.Models.Project x = null;
+    }
+    <div class="add">
+        @Html.ActionLink("+", "createProject", new { project = x })
+    </div>
+</div>
+
+<div class="content">
+    <div class="title_box">Các phần của  @ViewBag.ten</div>
+
+    @foreach (var item in Model)
+    {
+        <div class="column">
+
+            @item.title
+            <br />
+            <hr />
+
+            @foreach (var i in ViewBag.task)
+            {
+                if (@i.id_column == item.id_column)
+                {
+                    <div class="item-column">
+                        <a href="#"> @i.title  </a>
+                    </div>
+
+                }
+            }
+            <div class="add">
+                +
+            </div>
+        </div>
+
+    }
+    @{
+        webBinh.Models.column k = null;
+        
+    }
+    <div class="column">
+        <a href="@Url.Action("CreateColumn", "columns", new {column =k, idpr = ViewBag.id})">Add</a>
+
+    </div>
+
+
+</div>
+
