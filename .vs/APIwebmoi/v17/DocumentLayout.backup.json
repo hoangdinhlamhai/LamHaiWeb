@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\APIwebmoi\\APIwebmoi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97DD9B0A-BE22-4019-98EE-FEE1AC6844D4}|APIwebmoi\\APIwebmoi.csproj|d:\\apiwebmoi\\apiwebmoi\\apiwebmoi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DD9B0A-BE22-4019-98EE-FEE1AC6844D4}|APIwebmoi\\APIwebmoi.csproj|solutionrelative:apiwebmoi\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97DD9B0A-BE22-4019-98EE-FEE1AC6844D4}|APIwebmoi\\APIwebmoi.csproj|d:\\apiwebmoi\\apiwebmoi\\apiwebmoi\\models\\webnangcaoqlda2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97DD9B0A-BE22-4019-98EE-FEE1AC6844D4}|APIwebmoi\\APIwebmoi.csproj|solutionrelative:apiwebmoi\\models\\webnangcaoqlda2context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 153,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebNangCaoQlda2Context.cs",
+              "DocumentMoniker": "D:\\APIwebmoi\\APIwebmoi\\APIwebmoi\\Models\\WebNangCaoQlda2Context.cs",
+              "RelativeDocumentMoniker": "APIwebmoi\\Models\\WebNangCaoQlda2Context.cs",
+              "ToolTip": "D:\\APIwebmoi\\APIwebmoi\\APIwebmoi\\Models\\WebNangCaoQlda2Context.cs",
+              "RelativeToolTip": "APIwebmoi\\Models\\WebNangCaoQlda2Context.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:21:01.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "D:\\APIwebmoi\\APIwebmoi\\APIwebmoi\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "APIwebmoi\\Controllers\\ProjectController.cs",
+              "ToolTip": "D:\\APIwebmoi\\APIwebmoi\\APIwebmoi\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "APIwebmoi\\Controllers\\ProjectController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAqwFQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:16:54.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
